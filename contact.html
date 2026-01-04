@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> تواصل معنا - LAOS DONUTS</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Changa:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+    <!-- Header placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- قسم العنوان الرئيسي المحسن -->
+    <section class="contact-hero-enhanced">
+        <div class="container">
+            <div class="hero-content">
+                <h1><i class="fas fa-envelope-open-text"></i> تواصل معنا</h1>
+                <p>نحن هنا لخدمتك - تواصل معنا في أي وقت</p>
+                <div class="contact-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-phone-volume"></i>
+                        <span>استجابة فورية</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-clock"></i>
+                        <span>متاحون 24/7</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-heart"></i>
+                        <span>خدمة عملاء متميزة</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding: 80px 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%); background-size: 400% 400%; animation: gradientShift 8s ease infinite; min-height: 80vh;">
+        <div class="container">
+            <div style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(20px); border-radius: 30px; padding: 60px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.2);">
+                <h1 style="text-align: center; font-size: 3em; background: linear-gradient(45deg, #fff, #f0f8ff, #e6e6fa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 60px; text-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);">تواصل معنا</h1>
+
+                <!-- أزرار التواصل السريع -->
+                <div class="quick-contact-buttons">
+                    <a href="https://wa.me/201234567880" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" title="تواصل عبر واتساب">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>تواصل واتساب</span>
+                    </a>
+                    <a href="tel:01234567880" class="call-btn" title="اتصل بنا">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>اتصل بنا</span>
+                    </a>
+                </div>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; margin-bottom: 50px;">
+
+
+                    <!-- معلومات التواصل -->
+                    <div class="contact-enhanced-card">
+                        <h3 style="color: var(--accent-primary); margin-bottom: 30px; font-size: 1.5em;"><i class="fas fa-info-circle"></i> معلومات التواصل</h3>
+
+                        <div style="margin-bottom: 25px;">
+                            <p style="display: flex; align-items: center; gap: 15px; font-size: 1.1em; margin-bottom: 15px;">
+                                <i class="fas fa-phone" style="color: var(--accent-secondary); font-size: 1.2em; width: 25px;"></i>
+                                <span><strong>الهاتف:</strong> 01234567880</span>
+                            </p>
+                            <p style="display: flex; align-items: center; gap: 15px; font-size: 1.1em; margin-bottom: 15px;">
+                                <i class="fas fa-envelope" style="color: var(--accent-secondary); font-size: 1.2em; width: 25px;"></i>
+                                <span><strong>البريد:</strong> ragabsalem@gmail.com</span>
+                            </p>
+                            <p style="display: flex; align-items: center; gap: 15px; font-size: 1.1em;">
+                                <i class="fas fa-map-marker-alt" style="color: var(--accent-secondary); font-size: 1.2em; width: 25px;"></i>
+                                <span><strong>العنوان:</strong> مصر محافظة الاسكندرية برج العرب</span>
+                            </p>
+                        </div>
+
+                        <div style="border-top: 2px solid var(--accent-light-gray); padding-top: 25px; margin-top: 25px;">
+                            <h4 style="color: var(--accent-gold); margin-bottom: 15px;"><i class="fas fa-clock"></i> أوقات العمل</h4>
+                            <p style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                                <i class="fas fa-calendar-day" style="color: var(--accent-primary);"></i> السبت - الخميس: 8:00 ص - 12:00 ص
+                            </p>
+                            <p style="display: flex; align-items: center; gap: 10px;">
+                                <i class="fas fa-calendar-day" style="color: var(--accent-primary);"></i> الجمعة: 2:00 م - 12:00 ص
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <!-- نموذج التواصل -->
+                    <div class="contact-enhanced-card">
+                        <h3 style="color: var(--accent-primary); margin-bottom: 30px; font-size: 1.5em;"><i class="fas fa-paper-plane"></i> أرسل لنا رسالة</h3>
+
+                        <form id="contactForm" style="direction: rtl; text-align: right;">
+                            <div style="margin-bottom: 20px;">
+                                <label for="contactName" style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-dark);"><i class="fas fa-user"></i> الاسم</label>
+                                <input type="text" id="contactName" required class="contact-enhanced-input" placeholder="اسمك الكريم">
+                            </div>
+
+                            <div style="margin-bottom: 20px;">
+                                <label for="contactEmail" style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-dark);"><i class="fas fa-envelope"></i> البريد الإلكتروني</label>
+                                <input type="email" id="contactEmail" required class="contact-enhanced-input" placeholder="example@email.com">
+                            </div>
+
+                            <div style="margin-bottom: 20px;">
+                                <label for="contactPhone" style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-dark);"><i class="fas fa-phone"></i> رقم الهاتف</label>
+                                <input type="tel" id="contactPhone" class="contact-enhanced-input" placeholder="رقم الهاتف (اختياري)">
+                            </div>
+
+                            <div style="margin-bottom: 20px;">
+                                <label for="contactCity" style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-dark);"><i class="fas fa-city"></i> المدينة</label>
+                                <input type="text" id="contactCity" class="contact-enhanced-input" placeholder="مدينتك (اختياري)">
+                            </div>
+
+                            <div style="margin-bottom: 20px;">
+                                <label for="contactPreferredTime" style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-dark);"><i class="fas fa-clock"></i> وقت الاتصال المفضل</label>
+                                <select id="contactPreferredTime" class="contact-enhanced-select">
+                                    <option value="">أي وقت</option>
+                                    <option value="صباحاً">صباحاً (8 ص - 12 م)</option>
+                                    <option value="ظهراً">ظهراً (12 م - 4 م)</option>
+                                    <option value="مساءً">مساءً (4 م - 8 م)</option>
+                                    <option value="ليلاً">ليلاً (8 م - 12 ص)</option>
+                                </select>
+                            </div>
+
+                            <div style="margin-bottom: 25px;">
+                                <label for="contactSubject" style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-dark);"><i class="fas fa-tag"></i> الموضوع</label>
+                                <select id="contactSubject" required class="contact-enhanced-select">
+                                    <option value="">اختر الموضوع</option>
+                                    <option value="استفسار عام">استفسار عام</option>
+                                    <option value="طلب خاص">طلب خاص</option>
+                                    <option value="طلب تخصيص">طلب تخصيص دونات</option>
+                                    <option value="الفعاليات والمناسبات">الفعاليات والمناسبات</option>
+                                    <option value="شكوى">شكوى</option>
+                                    <option value="اقتراح">اقتراح</option>
+                                    <option value="طلب وظيفة">طلب وظيفة</option>
+                                    <option value="شراكة">شراكة</option>
+                                </select>
+                            </div>
+
+                            <div style="margin-bottom: 25px;">
+                                <label for="contactMessage" style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-dark);"><i class="fas fa-comment-alt"></i> الرسالة</label>
+                                <textarea id="contactMessage" rows="5" required class="contact-enhanced-textarea" placeholder="اكتب رسالتك هنا..."></textarea>
+                            </div>
+
+                            <button type="submit" id="sendMessageBtn" class="contact-enhanced-button">
+                                <i class="fas fa-paper-plane" style="margin-left: 8px;"></i>
+                                إرسال الرسالة
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+
+                <!-- الخريطة -->
+                <div class="contact-enhanced-card">
+
+
+                    <!-- وسائل التواصل الاجتماعي -->
+                    <div class="contact-enhanced-card social-card">
+                        <h3 style="color: var(--accent-primary); margin-bottom: 25px; font-size: 1.5em; text-align: center;"><i class="fas fa-share-alt"></i> تابعنا على وسائل التواصل</h3>
+                        <p style="margin-bottom: 30px; color: var(--text-muted); font-size: 1.1em; text-align: center;">اشترك في صفحاتنا للاطلاع على أحدث العروض والمنتجات الجديدة</p>
+
+                        <div style="text-align: center; margin-bottom: 30px;">
+                            <a href="https://facebook.com/laosdonuts" target="_blank" rel="noopener noreferrer" class="social-enhanced-link facebook" title="تابعنا على فيسبوك">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://instagram.com/laosdonuts" target="_blank" rel="noopener noreferrer" class="social-enhanced-link instagram" title="تابعنا على إنستغرام">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://tiktok.com/@laosdonuts" target="_blank" rel="noopener noreferrer" class="social-enhanced-link tiktok" title="تابعنا على تيك توك">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <a href="https://snapchat.com/add/laosdonuts" target="_blank" rel="noopener noreferrer" class="social-enhanced-link snapchat" title="تابعنا على سناب شات">
+                                <i class="fab fa-snapchat"></i>
+                            </a>
+                        </div>
+
+                        <!-- النشرة الإخبارية -->
+                        <div style="border-top: 2px solid var(--accent-light-gray); padding-top: 30px; margin-top: 30px;">
+                            <h4 style="color: var(--accent-gold); margin-bottom: 15px; font-size: 1.3em;"><i class="fas fa-gift"></i> النشرة الإخبارية</h4>
+                            <p style="margin-bottom: 20px; color: var(--text-muted);">احصل على خصم 15% على اول طلب ليك</p>
+                            <form id="newsletterForm" style="display: flex; gap: 15px; max-width: 400px; margin: 0 auto;">
+                                <input type="email" id="newsletterEmail" placeholder="بريدك الإلكتروني" aria-label="بريدك الإلكتروني" required style="flex: 1; padding: 12px 15px; border: 2px solid var(--accent-light-gray); border-radius: 25px; font-family: var(--font-body); font-size: 1em; text-align: right; direction: rtl; background: white;">
+                                <button type="submit" title="اشتراك في النشرة الإخبارية" aria-label="اشتراك في النشرة الإخبارية" style="width: 50px; height: 50px; border: none; border-radius: 50%; background: linear-gradient(45deg, #ff6b9d); color: white; font-size: 1.2em; cursor: pointer; transition: var(--transition-bounce); display: flex; align-items: center; justify-content: center; box-shadow: var(--box-shadow-light);">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals placeholder -->
+    <div id="modals-placeholder"></div>
+
+    <!-- Footer placeholder -->
+    <div id="footer-placeholder"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    <script src="common-elements.js"></script>
+
+
+    <script>
+        // تمييز الصفحة النشطة في التنقل
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // معالجة نموذج التواصل
+            const contactForm = document.getElementById('contactForm');
+            const sendMessageBtn = document.getElementById('sendMessageBtn');
+
+            if (contactForm && sendMessageBtn) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+
+                    const name = document.getElementById('contactName').value.trim();
+                    const email = document.getElementById('contactEmail').value.trim();
+                    const phone = document.getElementById('contactPhone').value.trim();
+                    const city = document.getElementById('contactCity').value.trim();
+                    const preferredTime = document.getElementById('contactPreferredTime').value;
+                    const subject = document.getElementById('contactSubject').value;
+                    const message = document.getElementById('contactMessage').value.trim();
+
+                    if (!name || !email || !subject || !message) {
+                        showToast('يرجى ملء جميع الحقول المطلوبة!', 'error');
+                        return;
+                    }
+
+                    // إظهار رسالة تحميل
+                    const originalText = sendMessageBtn.innerHTML;
+                    sendMessageBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> جاري الإرسال...';
+                    sendMessageBtn.disabled = true;
+
+                    // تحضير البيانات للإرسال
+                    const templateParams = {
+                        to_email: "ragabsalem665@gmail.com",
+                        from_name: name,
+                        from_email: email,
+                        from_phone: phone,
+                        from_city: city,
+                        preferred_time: preferredTime,
+                        subject: subject,
+                        message: message,
+                        reply_to: email,
+                        contact_type: subject
+                    };
+
+                    console.log("جاري إرسال رسالة التواصل...", templateParams);
+
+                    // إرسال الرسالة عبر EmailJS
+                    emailjs.send("service_9m858ii", "template_nuxmeti", templateParams)
+                        .then((response) => {
+                            console.log('Email sent successfully!', response.status, response.text);
+                            showToast('تم إرسال رسالتك بنجاح! سنتواصل معك قريباً', 'success');
+
+                            // إعادة تعيين النموذج
+                            contactForm.reset();
+
+                        })
+                        .catch((err) => {
+                            console.error('EmailJS Error:', err);
+                            let errorMessage = "حدث خطأ أثناء إرسال الرسالة";
+                            if (err.text) {
+                                errorMessage += `: ${err.text}`;
+                            }
+                            showToast(errorMessage, 'error');
+                        })
+                        .finally(() => {
+                            // إعادة تعيين زر الإرسال
+                            sendMessageBtn.innerHTML = originalText;
+                            sendMessageBtn.disabled = false;
+                        });
+                });
+            }
+
+            // معالجة نموذج النشرة الإخبارية
+            const newsletterForm = document.getElementById('newsletterForm');
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+
+                    const email = document.getElementById('newsletterEmail').value.trim();
+
+                    if (!email) {
+                        showToast('يرجى إدخال بريدك الإلكتروني!', 'error');
+                        return;
+                    }
+
+                    // إظهار رسالة تحميل
+                    const submitBtn = newsletterForm.querySelector('button[type="submit"]');
+                    const originalContent = submitBtn.innerHTML;
+                    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+                    submitBtn.disabled = true;
+
+                    // إرسال بيانات النشرة الإخبارية
+                    const newsletterParams = {
+                        to_email: "ragabsalem665@gmail.com",
+                        subscriber_email: email,
+                        newsletter_type: "اشتراك جديد",
+                        message: `اشتراك جديد في النشرة الإخبارية من: ${email}`
+                    };
+
+                    emailjs.send("service_9m858ii", "template_nuxmeti", newsletterParams)
+                        .then((response) => {
+                            console.log('Newsletter subscription successful!', response);
+                            showToast('تم اشتراكك بنجاح! استخدم كود: WELCOME15 للحصول على خصم 15%', 'success');
+                            newsletterForm.reset();
+                        })
+                        .catch((err) => {
+                            console.error('Newsletter Error:', err);
+                            showToast('حدث خطأ أثناء الاشتراك، يرجى المحاولة لاحقاً', 'error');
+                        })
+                        .finally(() => {
+                            submitBtn.innerHTML = originalContent;
+                            submitBtn.disabled = false;
+                        });
+                });
+            }
+
+
+
+            // إضافة تأثيرات hover للأزرار
+            document.querySelectorAll('.social-enhanced-link').forEach(btn => {
+                btn.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px) scale(1.1) rotate(5deg)';
+                });
+
+                btn.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1) rotate(0)';
+                });
+            });
+
+            // تأثيرات لأزرار التواصل السريع
+            document.querySelectorAll('.quick-contact-buttons a').forEach(btn => {
+                btn.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px) scale(1.05)';
+                    this.style.boxShadow = '0 15px 35px rgba(0, 0, 0, 0.3)';
+                });
+
+                btn.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                    this.style.boxShadow = '';
+                });
+            });
+        });
+
+        // دالة إظهار الرسائل
+        function showToast(message, type = 'info') {
+            const toast = document.createElement('div');
+            toast.className = `toast toast-${type}`;
+            toast.innerHTML = `
+                <span>${message}</span>
+                <button onclick="this.parentElement.remove()">&times;</button>
+            `;
+
+            document.body.appendChild(toast);
+
+            setTimeout(() => {
+                if (toast.parentElement) {
+                    toast.remove();
+                }
+            }, 4000);
+        }
+    </script>
+
+</body>
+
+</html>
